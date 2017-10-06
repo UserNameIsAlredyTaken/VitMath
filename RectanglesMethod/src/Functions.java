@@ -5,10 +5,10 @@ import static java.lang.Math.*;
  */
 public class Functions {
     private static double func1(double x){
-        return 1/log(x);
+            return 1/log(x);
     }
     private static double func2(double x){
-        return pow(2,cos(x))/exp(pow(x,-3));
+        return pow(cos(x),2)/exp(pow(x,-3));
     }
     private static double func3(double x){
         return -atan(sqrt(x));

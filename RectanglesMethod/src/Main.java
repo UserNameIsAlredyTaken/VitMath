@@ -6,7 +6,7 @@ public class Main {
         Result res = new Result();
         Values.getValues();
         if(Integral.solve(Values.mode,Values.functionNumber, Values.firstLimit, Values.secondLimit, Values.accuracy, res)){
-            //Result.show();
+            res.show();
         }else{
             System.out.println("Incomputable integral");
         }
